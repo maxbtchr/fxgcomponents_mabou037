@@ -1,6 +1,6 @@
 {
   "name": "fxgcomponents_mabou037",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/maxbtchr/fxgcomponents_mabou037.git"
   },
-  "keywords": ["react", "components"],
+  "keywords": [
+    "react",
+    "components"
+  ],
   "author": "Maxime Boucher",
   "license": "MIT",
   "devDependencies": {
