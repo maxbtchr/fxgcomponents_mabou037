@@ -1,0 +1,20 @@
+{
+  "name": "fxgcomponents_mabou037",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxbtchr/fxgcomponents_mabou037.git"
+  },
+  "keywords": [],
+  "author": "Maxime Boucher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxbtchr/fxgcomponents_mabou037/issues"
+  },
+  "homepage": "https://github.com/maxbtchr/fxgcomponents_mabou037#readme"
+}
