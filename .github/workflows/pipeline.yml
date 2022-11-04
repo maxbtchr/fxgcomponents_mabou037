@@ -18,6 +18,19 @@ jobs:
       - run: git push
       - run: git tag 1.0.0
       - run: git push --tags
+  web-deploy:
+    name: Deploiement FTP
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deployer derniere version du code
+        uses: actions/checkout@v2
+      
+      - name: Synchroniser fichiers
+        uses: SamKirkland/FTP-Deploy-Action@4.3.2
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
   publish:
     runs-on: ubuntu-latest
     steps:
