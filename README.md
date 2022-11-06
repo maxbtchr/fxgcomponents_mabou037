@@ -5,10 +5,6 @@
 
 Bibliothèque de 10 composantes React réutilisables basées sur Bootstrap, Ant Design et MUI. 
 
-## Liens
-- package NPM : https://www.npmjs.com/package/fxgcomponents_mabou037
-- serveur FTP : https://storybook.mabou037.devwebgarneau.com/
-
 Les composantes:
 - [ButtonColor](#buttoncolor)
 - [ButtonSize](#buttonsize)
@@ -20,6 +16,10 @@ Les composantes:
 - [Rating](#rating)
 - [Select](#select)
 - [Width](#width)
+
+### Liens
+- package NPM : https://www.npmjs.com/package/fxgcomponents_mabou037
+- serveur FTP : https://storybook.mabou037.devwebgarneau.com/
 
 ## Installation
 
