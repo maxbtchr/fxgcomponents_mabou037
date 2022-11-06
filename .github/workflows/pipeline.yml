@@ -33,6 +33,13 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./storybook-static/
+          server-dir: ./public_html/storybook/
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            **/.npm*
   publish:
     runs-on: ubuntu-latest
     steps:
