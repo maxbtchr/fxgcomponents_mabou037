@@ -24,7 +24,9 @@ jobs:
     steps:
       - name: Deployer derniere version du code
         uses: actions/checkout@v2
-      
+      - run: npm install yarn --global
+      - run: yarn install
+      - run: yarn build-storybook
       - name: Synchroniser fichiers
         uses: SamKirkland/FTP-Deploy-Action@4.3.2
         with:
