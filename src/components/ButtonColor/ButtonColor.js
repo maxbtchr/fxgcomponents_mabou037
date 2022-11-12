@@ -11,9 +11,8 @@ function ButtonColor({variantType = ""}) {
 
   return (
       <Button variant={variantType}>
-      {variantType}
+      {'PATATE'}
       </Button>
-      PATATE
 
   );
 }
